@@ -4,7 +4,6 @@ Backend and mobile developer based in Syria. I build things end to end — from 
 
 Most of my current work lives inside **Thimma**, an AI-powered debt ledger I designed and built for informal Arabic-speaking economies, where people track debts verbally and never in writing. The backend parses colloquial Syrian Arabic voice input into structured financial operations using Vertex AI with forced function calling. The mobile app handles the rest.
 ##what am work with:
-
 - <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
 - <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
 - <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
@@ -47,7 +46,6 @@ Most of my current work lives inside **Thimma**, an AI-powered debt ledger I des
 - <img src="https://img.shields.io/badge/TCP%2FIP-0078D7?style=flat&logo=cisco&logoColor=white" />
 - <img src="https://img.shields.io/badge/CCNA--level-1BA0D7?style=flat&logo=cisco&logoColor=white" />
 - <img src="https://img.shields.io/badge/Network_Automation-0078D7?style=flat&logo=cisco&logoColor=white" />
-
 ## Projects
 
 **[Thimma — Backend](https://github.com/shadi-maani/thimma-backend-showcase)**
