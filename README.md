@@ -31,6 +31,7 @@ Linux (daily driver, ~2 years) · Bash · Git · Docker Compose · Gitleaks · B
   <a href="https://getfedora.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fedora/fedora-original.svg" alt="fedora" width="40" height="40"/> </a>
   <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/> </a>
 </p>
+
 ---
 
 ## Projects
