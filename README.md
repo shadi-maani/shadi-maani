@@ -4,48 +4,25 @@ Backend and mobile developer based in Syria. I build things end to end — from 
 
 Most of my current work lives inside **Thimma**, an AI-powered debt ledger I designed and built for informal Arabic-speaking economies, where people track debts verbally and never in writing. The backend parses colloquial Syrian Arabic voice input into structured financial operations using Vertex AI with forced function calling. The mobile app handles the rest.
 ##what am work with:
-- <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-- <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" />
-- <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
-- <img src="https://img.shields.io/badge/Cloud_Functions-4285F4?style=flat&logo=googlecloud&logoColor=white" />
-- <img src="https://img.shields.io/badge/REST_APIs-FF6C37?style=flat&logo=postman&logoColor=white" />
-- <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" />
-- <img src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white" />
-- <img src="https://img.shields.io/badge/Material_3-757575?style=flat&logo=materialdesign&logoColor=white" />
-- <img src="https://img.shields.io/badge/RTL_%26_Arabic_UX-4CAF50?style=flat&logoColor=white" />
-- <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-- <img src="https://img.shields.io/badge/Multi--stage_Builds-2496ED?style=flat&logo=docker&logoColor=white" />
-- <img src="https://img.shields.io/badge/Compose-2496ED?style=flat&logo=docker&logoColor=white" />
-- <img src="https://img.shields.io/badge/Cloud_Run-4285F4?style=flat&logo=googlecloud&logoColor=white" />
-- <img src="https://img.shields.io/badge/API_Gateway-4285F4?style=flat&logo=googlecloud&logoColor=white" />
-- <img src="https://img.shields.io/badge/Artifact_Registry-4285F4?style=flat&logo=googlecloud&logoColor=white" />
-- <img src="https://img.shields.io/badge/Workload_Identity-4285F4?style=flat&logo=googlecloud&logoColor=white" />
-- <img src="https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat&logo=firebase&logoColor=black" />
-- <img src="https://img.shields.io/badge/Firestore-FFCA28?style=flat&logo=firebase&logoColor=black" />
-- <img src="https://img.shields.io/badge/Google_Sign--In-FFCA28?style=flat&logo=firebase&logoColor=black" />
-- <img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=flat&logo=googlecloud&logoColor=white" />
-- <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white" />
-- <img src="https://img.shields.io/badge/Speech--to--Text_V2-34A853?style=flat&logo=googlecloud&logoColor=white" />
-- <img src="https://img.shields.io/badge/Function_Calling-8E75B2?style=flat&logo=googlegemini&logoColor=white" />
-- <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
-- <img src="https://img.shields.io/badge/CI%2FCD_Pipelines-2088FF?style=flat&logo=githubactions&logoColor=white" />
-- <img src="https://img.shields.io/badge/Gitleaks-E53935?style=flat&logo=git&logoColor=white" />
-- <img src="https://img.shields.io/badge/Bandit_SAST-E53935?style=flat&logo=python&logoColor=white" />
-- <img src="https://img.shields.io/badge/Trivy-1904DA?style=flat&logo=aquasecurity&logoColor=white" />
-- <img src="https://img.shields.io/badge/Safety_SCA-4CAF50?style=flat&logoColor=white" />
-- <img src="https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white" />
-- <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white" />
-- <img src="https://img.shields.io/badge/Flutter_Test-02569B?style=flat&logo=flutter&logoColor=white" />
-- <img src="https://img.shields.io/badge/Mockito-A8B9CC?style=flat&logoColor=white" />
-- <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" />
-- <img src="https://img.shields.io/badge/Fedora-51A2DA?style=flat&logo=fedora&logoColor=white" />
-- <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white" />
-- <img src="https://img.shields.io/badge/KDE_Plasma-1D99F3?style=flat&logo=kde&logoColor=white" />
-- <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white" />
-- <img src="https://img.shields.io/badge/Automation_Scripts-4EAA25?style=flat&logo=gnubash&logoColor=white" />
-- <img src="https://img.shields.io/badge/TCP%2FIP-0078D7?style=flat&logo=cisco&logoColor=white" />
-- <img src="https://img.shields.io/badge/CCNA--level-1BA0D7?style=flat&logo=cisco&logoColor=white" />
-- <img src="https://img.shields.io/badge/Network_Automation-0078D7?style=flat&logo=cisco&logoColor=white" />
+#What I work with
+
+<p align="left">
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/> </a>
+  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40"/> </a>
+  <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="40" height="40"/> </a>
+  <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="flutter" width="40" height="40"/> </a>
+  <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="dart" width="40" height="40"/> </a>
+  <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/> </a>
+  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="firebase" width="40" height="40"/> </a>
+  <a href="https://github.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/> </a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/> </a>
+  <a href="https://pytest.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytest/pytest-original.svg" alt="pytest" width="40" height="40"/> </a>
+  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
+  <a href="https://getfedora.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fedora/fedora-original.svg" alt="fedora" width="40" height="40"/> </a>
+  <a href="https://ubuntu.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" alt="ubuntu" width="40" height="40"/> </a>
+  <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/> </a>
+</p>
 ## Projects
 
 **[Thimma — Backend](https://github.com/shadi-maani/thimma-backend-showcase)**
