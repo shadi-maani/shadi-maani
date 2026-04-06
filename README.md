@@ -37,12 +37,14 @@ Scripts for CCNA-level lab environments and network configuration tasks.
 
 ## Background
 
-Self-taught, working from Syria. I started with CompTIA and networking fundamentals, moved into Linux and system administration, and eventually into backend development and mobile. I switched to Linux as my primary OS about two years ago and haven't looked back.
 
-Currently working through the IBM DevOps & Software Engineering Professional Certificate while applying the concepts directly in production.
+Self-taught backend and mobile developer based in Syria. My journey started with CompTIA fundamentals (A+, Network+, Security+) and CCNA-level networking, then moved into Linux system administration and automation scripting. About two years ago, I switched to Linux as my primary OS — and that’s when I started building real applications.
 
-English B2 — comfortable reading documentation, writing technical content, and communicating in professional contexts.
+I independently designed and shipped **Thimma**, a full-stack AI-powered debt management platform, owning the entire lifecycle: from Python backend on GCP (Cloud Run, Vertex AI, Speech-to-Text) to a cross-platform Flutter app (Firebase, REST, state management, PDF generation, and 140+ tests). Along the way, I implemented production-grade CI/CD with GitHub Actions, Docker multi-stage builds, keyless GCP auth via Workload Identity Federation, and security scanning (Gitleaks, Bandit, Trivy).
 
+Currently working through the **IBM DevOps & Software Engineering Professional Certificate** (in progress), applying Docker, microservices, and automated testing directly to active projects. I also hold a first‑year B.A. in English Literature from Damascus University (B2 English), which helps me write clear technical documentation and communicate effectively in professional settings.
+
+English B2 — comfortable reading API specs, writing documentation.
 ---
 
 ## Contact
