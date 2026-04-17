@@ -18,6 +18,7 @@ Flutter · Dart · Firebase Auth · Cloud Firestore · REST APIs · State manage
 
 **Systems & Tooling**
 Linux (daily driver, ~2 years) · Bash · Git · Docker Compose · Gitleaks · Bandit · Trivy · Safety · gcloud CLI
+
 ---
 
 ## Projects
