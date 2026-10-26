@@ -6,25 +6,29 @@ Security came first for me. Then I spent a while as a developer and built **Thim
 
 ---
 
-## What I work with
+## How I work
 
-**Offensive**
-Web application pentesting · Bug bounty methodology · OSINT · Burp Suite · Caido · OWASP ZAP · nmap · Shodan · Censys
+The useful thing to know about me isn't my toolset, it's how I approach a target.
 
-**AI and LLM security**
-Prompt injection · Agent sandbox escapes · LLM pipeline hardening
+I form theories and test them. While I'm gathering information and while I'm hunting, I keep a running set of guesses about how the thing works and where it might break, and I go after them one by one. I retry things two or three times even when I'm repeating what looks like the same request, because the second or third attempt is often where something nobody noticed turns up. For recon I lean on the known frameworks and handbooks rather than improvising.
 
-**Defensive**
-Vulnerability disclosure programs (HackerOne) · Incident response · SPF / DKIM / DMARC · Exposed-asset discovery · Access control review
+My workflow is an intercepting proxy like anyone else's, but I run more of it through AI than most people do: I use it to move faster, to check a theory, and to generate and fire request variations quickly instead of by hand.
 
-**Development and cloud**
-Python · Flask · REST APIs · Docker · GitHub Actions · Google Cloud Run · IAM · API Gateway · Vertex AI · Workload Identity Federation · Gitleaks · Bandit · Safety · Trivy
+With AI and LLM targets I start by finding the edges: what the model can do, what tools it has, what rules it's been given, and then I try to break out of them. On the building side I harden LLM pipelines so a bad model output can't turn into a bad record.
 
-**Mobile**
-Flutter · Dart · Firebase Auth · Cloud Firestore
+On defense I work incidents against NIST and the standard frameworks rather than ad hoc. I read email headers and check SPF, DKIM and DMARC. For access control I go past "can this user reach this" into the code and the auth path, and into the development decisions behind them. I've also spent time on the detection side with Suricata and SIEM, reading logs and writing rules for the kinds of activity I know from the attacking side.
 
-**Systems**
-Linux (Fedora and Ubuntu, daily driver for about 2 years) · Bash · Git · Docker Compose · Networking fundamentals · gcloud CLI
+---
+
+## Tooling
+
+Where the tool itself matters:
+
+**Detection and monitoring:** Suricata · SIEM · log analysis
+**Web and recon:** Burp Suite · Caido · OWASP ZAP · nmap · Shodan · Censys
+**Secure development and cloud:** Python · Google Cloud (Cloud Run, Vertex AI, API Gateway, IAM) · Docker · GitHub Actions · Workload Identity Federation · Gitleaks · Bandit · Safety · Trivy
+**Mobile:** Flutter · Dart · Firebase Auth · Cloud Firestore
+**Systems:** Linux (Fedora and Ubuntu, daily driver for about 2 years) · Bash · Git · networking fundamentals
 
 ---
 
