@@ -1,71 +1,71 @@
 # Shadi Maani
 
-Security researcher based in Syria, focused on web application and AI security. I've been doing hands-on offensive work since 2020 — finding the bugs, writing them up so they actually get fixed, and handling things when an incident happens.
+I'm a security researcher in Syria. I mostly work on web application and AI security, and I've been doing offensive work since 2020.
 
-I also build what I test. Security came first for me, then I spent a stretch as a developer, designing and shipping **Thimma**, an AI-powered debt ledger with a Python backend on GCP and a Flutter app, before coming back to security. So I read code, pipelines and cloud configs from the builder's side too.
+Security came first for me. Then I spent a while as a developer and built **Thimma**, an AI debt ledger with a Python backend on GCP and a Flutter app, and after that I came back to security. That detour means I can read the code and cloud setup of what I'm testing.
 
 ---
 
 ## What I work with
 
-**Offensive Security**
+**Offensive**
 Web application pentesting · Bug bounty methodology · OSINT · Burp Suite · Caido · OWASP ZAP · nmap · Shodan · Censys
 
-**AI & LLM Security**
+**AI and LLM security**
 Prompt injection · Agent sandbox escapes · LLM pipeline hardening
 
-**Defense & Incident Response**
+**Defensive**
 Vulnerability disclosure programs (HackerOne) · Incident response · SPF / DKIM / DMARC · Exposed-asset discovery · Access control review
 
-**Secure Development & Cloud**
+**Development and cloud**
 Python · Flask · REST APIs · Docker · GitHub Actions · Google Cloud Run · IAM · API Gateway · Vertex AI · Workload Identity Federation · Gitleaks · Bandit · Safety · Trivy
 
 **Mobile**
 Flutter · Dart · Firebase Auth · Cloud Firestore
 
-**Systems & Tooling**
-Linux (Fedora, Ubuntu — daily driver, ~2 years) · Bash · Git · Docker Compose · Networking fundamentals · gcloud CLI
+**Systems**
+Linux (Fedora and Ubuntu, daily driver for about 2 years) · Bash · Git · Docker Compose · Networking fundamentals · gcloud CLI
 
 ---
 
 ## Security work
 
-**SYNC NGO — Security volunteer** *(May 2026 – present)*
-Ran a multi-cycle security assessment of the organization's AI recruitment platform during development and documented 19 findings (3 High, 10 Medium, 6 Low), each written up with reproduction steps and tracked through remediation. Set up the organization's first vulnerability disclosure program on HackerOne, including its scope, safe-harbor terms and triage workflow. Led the response to a malware and credential-theft incident and wrote the incident-response runbook.
+**SYNC NGO, security volunteer** *(May 2026 to present)*
+I tested the organization's AI recruitment platform over several rounds while it was being built. I wrote up 19 findings (3 High, 10 Medium, 6 Low) with reproduction steps and followed each one until it was fixed. I also set up the organization's first vulnerability disclosure program on HackerOne, with its scope, safe-harbor terms and triage process. I led the response to a malware and credential-theft incident and then wrote the incident-response runbook.
 
-**Perplexity AI — Sandbox network-isolation bypass**
-Reported unauthorized outbound network access from an environment that was meant to be isolated. Accepted and resolved.
+**Perplexity AI, sandbox network-isolation bypass**
+A sandbox that was supposed to be isolated could still make outbound network connections. I reported it, and Perplexity accepted and fixed it.
 
 ---
 
 ## Projects
 
-**[Thimma — Backend](https://github.com/shadi-maani/thimma-backend-showcase)**
-AI pipeline that converts unstructured Arabic voice or text into structured financial records. Handles up to 5 simultaneous debt operations per request. Built with Vertex AI function calling (`Mode.ANY`), Speech-to-Text V2 Chirp 3, a hardcoded linguistic logic matrix for zero-hallucination direction detection, and a 45-case golden test dataset. On the security side: Cloud Run is closed to unauthenticated traffic behind API Gateway, CI/CD is keyless through Workload Identity Federation, Vertex AI quota is zeroed across all regions with an Org Policy model allowlist, and Gitleaks, Bandit, Safety and Trivy run in the pipeline on every push.
+**[Thimma backend](https://github.com/shadi-maani/thimma-backend-showcase)**
+Takes Arabic voice or text and turns it into structured debt records, up to 5 operations per request. It uses Vertex AI function calling (`Mode.ANY`), Speech-to-Text V2 Chirp 3, a hardcoded linguistic logic matrix for direction detection, and a 45-case golden test set. Cloud Run is closed to unauthenticated traffic and sits behind API Gateway key auth. CI/CD has no stored keys and authenticates through Workload Identity Federation. Vertex AI quota is set to zero across all regions, with an Org Policy model allowlist on top, and Gitleaks, Bandit, Safety and Trivy run on every push.
 
-**Thimma — Flutter App** *(private)*
-Cross-platform mobile app for the same system. Covers Firebase Auth (email, Google, verification gate), Firestore smart sync with FIFO settlement logic, voice recording flow, Arabic PDF statement export, scheduled notifications, and 140+ unit/widget/integration tests.
+**Thimma Flutter app** *(private)*
+The mobile app for the same system: Firebase Auth with email, Google and a verification gate, Firestore sync with FIFO settlement, voice recording, Arabic PDF statements, scheduled notifications, and over 140 unit, widget and integration tests.
 
-**KDE Plasma Widget**
-A desktop widget for KDE Plasma. JavaScript/QML.
+**KDE Plasma widget**
+A desktop widget for KDE Plasma, written in JavaScript and QML.
 
-**Network Automation**
-Scripts for CCNA-level lab environments and network configuration tasks.
+**Network automation**
+Scripts for CCNA-level labs and network configuration.
 
 ---
 
 ## Background
 
-Self-taught. I started with CompTIA fundamentals (A+, Network+, Security+) and CCNA-level networking as self-study, then moved into Linux system administration and automation scripting. I've been practicing offensive security on PortSwigger Web Security Academy and Hack The Box since 2020, and I've worked through the OSCP, CEH and Linux+ curricula on my own, without taking the exams yet.
+I'm self-taught. I started by studying CompTIA A+, Network+ and Security+ material and CCNA-level networking on my own, then moved on to Linux administration and scripting. I've practiced on PortSwigger Web Security Academy and Hack The Box since 2020. I've also gone through the OSCP, CEH and Linux+ material, but I haven't taken those exams yet.
 
-About two years ago I switched to Linux as my primary OS, and that's when I started building real applications. Shipping Thimma end to end taught me how backends, CI/CD and cloud IAM get put together in practice, which is a big part of what I look at now when I test someone else's.
+I switched to Linux as my main OS about two years ago, and that's when I started building real applications. Building Thimma from start to finish showed me how backends, CI/CD and cloud IAM are put together, and I look at those same things when I test other people's systems.
 
-Currently working through the **IBM DevOps & Software Engineering Professional Certificate** (in progress). I'm also in my first year of a B.A. in English Literature at Damascus University (B2 English), which helps me write clear reports and technical documentation.
+I'm in my second year of a B.A. in English Literature at Damascus University. My English is at B2 level.
 
 ---
 
 ## Contact
 
-Open to security roles — application security, penetration testing and AI security — remote or on-site in Syria. Backend work too. Best reached via GitHub issues or email.
+I'm looking for security work (application security, penetration testing or AI security), remote or on-site in Syria. I'm open to backend roles as well. You can reach me through GitHub issues or by email.
 
 [shadimaani.me](https://shadimaani.me) · [contact@shadimaani.me](mailto:contact@shadimaani.me)
